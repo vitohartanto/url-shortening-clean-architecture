@@ -1,0 +1,5 @@
+CREATE TABLE urls (
+  id SERIAL PRIMARY KEY,
+  longUrl TEXT NOT NULL,
+  shortUrl TEXT NOT NULL UNIQUE
+);
